@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-header {
+    background-image: url('Netflix-Background.jpg'); /* Add the background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    position: relative; /* Allows positioning of child elements */
+}
+
+.header-content {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-top {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.language-select button, .sign-in button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.header-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header-text p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.relative:hover .group-hover:block {
+    display: block;
+}
+
+.small-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.header-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.header-form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.get-started {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.get-started:hover {
+    background-color: darkred;
+}

@@ -1,0 +1,43 @@
+
+        body {
+            background-color: #1b1b1d;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin: 50px auto;
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .plans {
+            display: flex;
+            justify-content: space-between;
+            background-color: #2c2c2e;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .plan {
+            flex: 1;
+            margin: 0 10px;
+        }
+        .plan h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .price {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }

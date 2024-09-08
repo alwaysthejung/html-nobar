@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOBAR</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom CSS */
+        .movie-card img {
+            transition: transform 0.3s ease;
+        }
+
+        .movie-card:hover img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    <!-- Header -->
+    <header class="bg-black p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-red-500">NOBAR</h1>
+            <nav class="flex space-x-4">
+                <a href="#" class="hover:text-red-500">TV Shows</a>
+                <a href="#" class="hover:text-red-500">Series</a>
+                <a href="#" class="hover:text-red-500">Genres</a>
+                <a href="#" class="hover:text-red-500">Watchlist</a>
+            </nav>
+            <div>
+                <input type="text" placeholder="Search" class="p-2 rounded-md bg-gray-700 border border-gray-600 focus:outline-none focus:border-red-500">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto mt-6">
+        <!-- Featured Movie -->
+        <section class="relative mb-8">
+            <img src="image/header.jpg" alt="Inception" class="w-full h-72 object-cover rounded-lg">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                <div class="text-center">
+                    <h2 class="text-4xl font-bold">Inception</h2>
+                    <p class="mt-2">2,584,152</p>
+                </div>
+            </div>
+        </section>
+
+
+
+</body>
+</html>
